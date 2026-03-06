@@ -13,4 +13,5 @@ public class Aluno extends Pessoa{
     @Column (unique = true, nullable = false)
     private String matricula;
 
+    private Double nota;
 }
